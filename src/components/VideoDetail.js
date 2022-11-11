@@ -18,7 +18,7 @@ const VideoDetail = ({video, darkMode}) => {
                </Grid>
             </Paper>
             <Paper elevation={6} style={{padding: '15px', marginTop: '10px'}}>
-               <Typography variant="h4">{video.snippet.title} - {video.snippet.channelTitle}</Typography>
+               <Typography variant="h6">{video.snippet.title} - {video.snippet.channelTitle}</Typography>
                <Typography variant="subtitle1">{video.snippet.channelTitle}</Typography>
                <Typography variant="subtitle2">{video.snippet.description}</Typography>
             </Paper>
