@@ -13,12 +13,12 @@
   
   .videoItem {
     padding: 15px;
-    display: flex;
+  
     cursor: pointer;
   }
   
   .videoImg {
-    width: 50%;
+    width: 100%;
   }
   
   .channelImg {
@@ -27,9 +27,24 @@
     margin: 10px;
     border-radius: 50%;
   }
-  
   .videoItemTitle {
-    padding: 20px;
+    white-space: normal !important;
+  }
+  .videomainWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 0;
+    height: 0;
+  }
+  .videomainWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .videoItemTitle {
+    padding:0px 20px 20px 20px;
     letter-spacing: none;
     white-space: nowrap;
     overflow: hidden;
