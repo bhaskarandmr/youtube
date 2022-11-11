@@ -15,7 +15,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        this.handleSubmit('React JS Traversy Media');
+        this.handleSubmit('dinamalar');
     }
 
     onVideoSelect = (video) => {
