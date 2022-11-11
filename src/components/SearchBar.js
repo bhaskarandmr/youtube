@@ -22,16 +22,7 @@ class SearchBar extends React.Component {
 
     render() {
         return(
-           <Paper elevation={6} >
-               <form onSubmit={this.handleSubmit} className="searchBar">
-                   <TextField 
-                      fullWidth 
-                      placeholder="Search..."
-                      name="searchTerm"
-                      value={this.state.searchTerm}
-                      onChange={this.handleChange} />
-               </form>
-           </Paper>
+            <div><img src='https://stat.dinamalar.com/new/images/dmrenglishlogonew.png'/></div>
         )
     }
 }
