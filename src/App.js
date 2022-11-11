@@ -68,11 +68,11 @@ class App extends React.Component {
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container spacing={2}>
-                       <Grid item xs={8}>
+                       <Grid item xs={12}  md={8}>
                            {/* VIDEO DETAILS */}
                            <VideoDetail video={selectedVideo} />
                        </Grid>
-                       <Grid className="videoCard" item xs={4}>
+                       <Grid className="videoCard" item xs={12} md={4}>
                            {/* VIDEO LIST */}
                            <VideoList videos={videos} onVideoSelect={this.onVideoSelect} />
                        </Grid>
