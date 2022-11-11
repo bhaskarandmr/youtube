@@ -11,7 +11,7 @@ const VideoDetail = ({video, darkMode}) => {
 
     return (
         <React.Fragment>
-            <Paper elevation={6} className="videoContainer">
+            <Paper elevation={6} className="videoContainer videomainWrapper">
                <iframe frameBorder="0" height="100%" width="100%" title="Video Player" src={videoSrc} className="iframe" />
                <Grid item xs={12}>
                    <Typography variant="h6">{title}</Typography>
