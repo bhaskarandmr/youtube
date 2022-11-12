@@ -56,7 +56,7 @@ class App extends React.Component {
            <Grid container spacing={4} className={darkMode ? "darkBackground" : null}>
                <Grid className="videoContainer" item xs={12}>
                    <Grid container spacing={2} alignItems="center">
-                       <Grid item xs={8}>
+                       <Grid item xs={12}>
                            {/* SEARCH BAR */}
                            <SearchBar onFormSubmit={this.handleSubmit} />
                        </Grid>
