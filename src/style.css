@@ -6,7 +6,10 @@
   .videoContainer {
     padding: 15px;
   }
-  
+  .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+  text-align: center;
+}
   .iframe {
     height: 500px;
   }
